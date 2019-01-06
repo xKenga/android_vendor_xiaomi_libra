@@ -1,4 +1,4 @@
-# Copyright (C) 2017-2018 The MoKee Open Source Project
+# Copyright (C) 2017-2019 The MoKee Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -264,8 +264,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/hw/fingerprint.fpc.so:system/vendor/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/hw/gatekeeper.msm8992.so:system/vendor/lib64/hw/gatekeeper.msm8992.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/hw/keystore.msm8992.so:system/vendor/lib64/hw/keystore.msm8992.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/hw/vulkan.msm8992.so:system/vendor/lib64/hw/vulkan.msm8992.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/libcom_fingerprints_service.so:system/vendor/lib64/libcom_fingerprints_service.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so
